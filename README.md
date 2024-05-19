@@ -2,7 +2,7 @@
 Pharmacy Chain System
 
 
-Aim of the Project:
+#Aim of the Project:
 The primary aim of this project is to develop a comprehensive database management system for a Pharmacy chain system. This system will help conduct the operations of managing medication inventories, suppliers, sales, employees, and customer information across multiple pharmacy locations. By integrating advanced database solutions, the project seeks to ensure efficient, accurate, and secure handling of pharmacy data.
 
 
