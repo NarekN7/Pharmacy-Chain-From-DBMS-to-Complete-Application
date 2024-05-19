@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Process Sale Transaction</h1>
+        <form id="transactionForm">
+            <div class="input-group">
+                <label for="soldQuantity">Sold Quantity:</label>
+                <input type="number" id="soldQuantity" name="soldQuantity" required>
+            </div>
+            <div class="input-group">
+                <label for="branchId">Branch ID:</label>
+                <input type="number" id="branchId" name="branchId" required>
+            </div>
+            <div class="input-group">
+                <label for="medicationId">Medication ID:</label>
+                <input type="number" id="medicationId" name="medicationId" required>
+            </div>
+            <div class="input-group">
+                <label for="customerId">Customer ID:</label>
+                <input type="number" id="customerId" name="customerId" required>
+            </div>
+            <div class="input-group">
+                <label for="employeeId">Employee ID:</label>
+                <input type="number" id="employeeId" name="employeeId" required>
+            </div>
+            <button type="submit">Submit Transaction</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
