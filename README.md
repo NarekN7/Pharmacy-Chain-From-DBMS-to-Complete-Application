@@ -17,36 +17,26 @@ fundamental operations such as data insertion, retrieval, update, and deletion d
 
 
 Pharmacists and Pharmacy Staff operations:
-● Handle inventory and sales transactions, add new medications, and update stock levels.
-● Maintain customer profiles, track purchase history, and provide personalized services.
-● Verify and process customer prescriptions, check for and sell medications.
-● Apply discounts or loyalty points.
-● Ensure synchronization of inventory levels across multiple pharmacy locations in
-real time.
+Handle inventory and sales transactions, add new medications, and update stock levels.
+Maintain customer profiles, track purchase history, and provide personalized services.
+Verify and process customer prescriptions, check for and sell medications.
+Apply discounts or loyalty points.
+Ensure synchronization of inventory levels across multiple pharmacy locations in real time.
 
 
 Stakeholders operations:
-● Analyze sales data, manage promotions, and engage with customers through loyalty
-programs. Users can generate sales reports, track revenue, and analyze trends for better
-decision-making.
-● Use the system for employee management, including scheduling, performance tracking,
-and access control.
+Analyze sales data, manage promotions, and engage with customers through loyalty programs. Users can generate sales reports, track revenue, and analyze trends for better decision-making.
+Use the system for employee management, including scheduling, performance tracking, and access control.
 Administrator Operations:
-● Configure system settings, manage user accounts, and set up data backup schedules.
-● Use the system's analytics tools to gain insights into business performance and make
-informed decisions.
-● Review logs of system activities to monitor for unauthorized access or discrepancies.
+Configure system settings, manage user accounts, and set up data backup schedules.
+Use the system's analytics tools to gain insights into business performance and make informed decisions.
+Review logs of system activities to monitor for unauthorized access or discrepancies.
 
 
-From the point of information, the system can enforce several consistency requirements to align
-with business needs and ensure data integrity:
+From the point of information, the system can enforce several consistency requirements to align with business needs and ensure data integrity:
 
 Real-time Inventory Updates: Reflect sales and deliveries instantly to maintain accurate stock levels. When a medication is dispensed or sold, the system will automatically decrement the stock from the inventory. If a medication is returned or a sale is reversed, the system will increment the stock accordingly.
-Data Consistency and Integrity: Ensure that all transactions are reflected across the
-system to prevent discrepancies.
+Data Consistency and Integrity: Ensure that all transactions are reflected across the system to prevent discrepancies.
 Security Measures: Implement access controls to protect sensitive data. Reporting and Analytics: Provide comprehensive reporting tools for sales, inventory management, and performance analytics.
-Expiration Date Monitoring: Medications nearing their expiration date will be flagged
-for review, and actions will be prompted to either dispose of the medications safely or
-return them to the supplier if applicable. The system will prevent the sale of expired
-medications by removing them from the active inventory list.
+Expiration Date Monitoring: Medications nearing their expiration date will be flagged for review, and actions will be prompted to either dispose of the medications safely or return them to the supplier if applicable. The system will prevent the sale of expired medications by removing them from the active inventory list.
 
